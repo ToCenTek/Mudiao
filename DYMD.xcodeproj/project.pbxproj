@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650073FA19DC2C600040EA45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650073F919DC2C600040EA45 /* Foundation.framework */; };
+		650073FC19DC2C600040EA45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650073FB19DC2C600040EA45 /* CoreGraphics.framework */; };
+		650073FE19DC2C600040EA45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650073FD19DC2C600040EA45 /* UIKit.framework */; };
+		6500740419DC2C600040EA45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6500740219DC2C600040EA45 /* InfoPlist.strings */; };
+		6500740619DC2C600040EA45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500740519DC2C600040EA45 /* main.m */; };
+		6500740A19DC2C600040EA45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500740919DC2C600040EA45 /* AppDelegate.m */; };
+		6500742B19DC377F0040EA45 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500742919DC377F0040EA45 /* MainViewController.m */; };
+		6500742C19DC377F0040EA45 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6500742A19DC377F0040EA45 /* MainViewController.xib */; };
+		6500757F19DC56FA0040EA45 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500757E19DC56FA0040EA45 /* bg.png */; };
+		6500760519DC59580040EA45 /* _【展厅6】.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500759C19DC59580040EA45 /* _【展厅6】.png */; };
+		650076EE19DE8E140040EA45 /* off-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076E819DE8E140040EA45 /* off-off.png */; };
+		650076EF19DE8E140040EA45 /* off-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076E919DE8E140040EA45 /* off-on.png */; };
+		650076F019DE8E140040EA45 /* on-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076EA19DE8E140040EA45 /* on-off.png */; };
+		650076F119DE8E140040EA45 /* on-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076EB19DE8E140040EA45 /* on-on.png */; };
+		650076F219DE8E140040EA45 /* 组-11-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076EC19DE8E140040EA45 /* 组-11-off.png */; };
+		650076F319DE8E140040EA45 /* 组-11-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076ED19DE8E140040EA45 /* 组-11-on.png */; };
+		650076F619DE8EA80040EA45 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076F419DE8EA80040EA45 /* off.png */; };
+		650076F719DE8EA80040EA45 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076F519DE8EA80040EA45 /* on.png */; };
+		650076FF19DE8EE50040EA45 /* 图层-42-拷贝-4-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076F919DE8EE50040EA45 /* 图层-42-拷贝-4-off.png */; };
+		6500770019DE8EE50040EA45 /* 图层-42-拷贝-4-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076FA19DE8EE50040EA45 /* 图层-42-拷贝-4-on.png */; };
+		6500770119DE8EE50040EA45 /* 投影--on.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076FB19DE8EE50040EA45 /* 投影--on.png */; };
+		6500770219DE8EE50040EA45 /* 投影-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076FC19DE8EE50040EA45 /* 投影-off.png */; };
+		6500770319DE8EE50040EA45 /* 电脑--on.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076FD19DE8EE50040EA45 /* 电脑--on.png */; };
+		6500770419DE8EE50040EA45 /* 电脑-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 650076FE19DE8EE50040EA45 /* 电脑-off.png */; };
+		6500771619DE98DA0040EA45 /* 图层-62.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500770519DE98DA0040EA45 /* 图层-62.png */; };
+		6500772B19DE9B610040EA45 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500772719DE9B610040EA45 /* sound.png */; };
+		6500772C19DE9B610040EA45 /* 图层-36-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500772819DE9B610040EA45 /* 图层-36-off.png */; };
+		6500772D19DE9B610040EA45 /* 图层-36-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500772919DE9B610040EA45 /* 图层-36-on.png */; };
+		6500772E19DE9B610040EA45 /* 图层-39.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500772A19DE9B610040EA45 /* 图层-39.png */; };
+		6500774919DEA2530040EA45 /* 图层-48-拷贝.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500774519DEA2530040EA45 /* 图层-48-拷贝.png */; };
+		6500774A19DEA2530040EA45 /* 图层-48-拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500774619DEA2530040EA45 /* 图层-48-拷贝@2x.png */; };
+		6500774B19DEA2530040EA45 /* 图层-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500774719DEA2530040EA45 /* 图层-48.png */; };
+		6500774C19DEA2530040EA45 /* 图层-48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500774819DEA2530040EA45 /* 图层-48@2x.png */; };
+		6500774F19DEA36C0040EA45 /* 图层-35-拷贝.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500774D19DEA36C0040EA45 /* 图层-35-拷贝.png */; };
+		6500775019DEA36C0040EA45 /* 图层-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 6500774E19DEA36C0040EA45 /* 图层-35.png */; };
+		6500775319DEB2A30040EA45 /* RightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500775219DEB2A30040EA45 /* RightView.m */; };
+		6500775619DEB2D00040EA45 /* RightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6500775519DEB2D00040EA45 /* RightView.xib */; };
+		6500775E19DEB44C0040EA45 /* MySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500775D19DEB44C0040EA45 /* MySlider.m */; };
+		6500776019DEE04E0040EA45 /* RightViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6500775F19DEE04E0040EA45 /* RightViewCell.xib */; };
+		6500776419DF09940040EA45 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6500776319DF09940040EA45 /* address.plist */; };
+		6500776619DFC0E10040EA45 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6500776519DFC0E10040EA45 /* CoreMedia.framework */; };
+		6500776819DFC0FF0040EA45 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6500776719DFC0FF0040EA45 /* CFNetwork.framework */; };
+		6500776A19DFC1130040EA45 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6500776919DFC1130040EA45 /* libicucore.dylib */; };
+		65799E0D19F1721500A4A67C /* _【展厅1】.png in Resources */ = {isa = PBXBuildFile; fileRef = 65799DD319F1721500A4A67C /* _【展厅1】.png */; };
+		65799E0E19F1721500A4A67C /* _【展厅2】.png in Resources */ = {isa = PBXBuildFile; fileRef = 65799DD419F1721500A4A67C /* _【展厅2】.png */; };
+		65799E0F19F1721500A4A67C /* _【展厅3】.png in Resources */ = {isa = PBXBuildFile; fileRef = 65799DD519F1721500A4A67C /* _【展厅3】.png */; };
+		65799E1019F1721500A4A67C /* _【展厅4】.png in Resources */ = {isa = PBXBuildFile; fileRef = 65799DD619F1721500A4A67C /* _【展厅4】.png */; };
+		65799E1119F1721500A4A67C /* _【展厅5】.png in Resources */ = {isa = PBXBuildFile; fileRef = 65799DD719F1721500A4A67C /* _【展厅5】.png */; };
+		65C855EF19E9755000205422 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855D719E9755000205422 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		65C855F019E9755000205422 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855D919E9755000205422 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		65C855F119E9755000205422 /* NS+OSCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855DC19E9755000205422 /* NS+OSCAdditions.m */; };
+		65C855F219E9755000205422 /* OSCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855DE19E9755000205422 /* OSCConnection.m */; };
+		65C855F319E9755000205422 /* OSCDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855E119E9755000205422 /* OSCDispatcher.m */; };
+		65C855F419E9755000205422 /* OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855E319E9755000205422 /* OSCPacket.m */; };
+		65C855F519E9755000205422 /* compiledRegexCache.d in Sources */ = {isa = PBXBuildFile; fileRef = 65C855E619E9755000205422 /* compiledRegexCache.d */; };
+		65C855F619E9755000205422 /* NSString-HexConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855E819E9755000205422 /* NSString-HexConversion.m */; };
+		65C855F719E9755000205422 /* utf16ConversionCache.d in Sources */ = {isa = PBXBuildFile; fileRef = 65C855E919E9755000205422 /* utf16ConversionCache.d */; };
+		65C855F819E9755000205422 /* License.html in Resources */ = {isa = PBXBuildFile; fileRef = 65C855EA19E9755000205422 /* License.html */; };
+		65C855F919E9755000205422 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 65C855EB19E9755000205422 /* License.rtf */; };
+		65C855FA19E9755000205422 /* RegexKitLite.html in Resources */ = {isa = PBXBuildFile; fileRef = 65C855ED19E9755000205422 /* RegexKitLite.html */; };
+		65C855FB19E9755000205422 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855EE19E9755000205422 /* RegexKitLite.m */; };
+		65C855FE19E9755E00205422 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C855FD19E9755E00205422 /* Message.m */; };
+		65C8562719E98AF700205422 /* 东阳展厅运作动画.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65C8560519E98AF700205422 /* 东阳展厅运作动画.gif */; };
+		65C8562819E98AF700205422 /* 图层-分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8560619E98AF700205422 /* 图层-分割线.png */; };
+		831C366419F244570060AB10 /* all-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 831C366319F244570060AB10 /* all-off.png */; };
+		831C366619F244F90060AB10 /* all-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 831C366519F244F90060AB10 /* all-on.png */; };
+		8327908C19F50BCD002259B7 /* 电脑-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327907E19F50BCD002259B7 /* 电脑-1.png */; };
+		8327908D19F50BCD002259B7 /* 电脑-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327907F19F50BCD002259B7 /* 电脑-2.png */; };
+		8327908E19F50BCD002259B7 /* 电脑-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908019F50BCD002259B7 /* 电脑-3.png */; };
+		8327908F19F50BCD002259B7 /* 电脑-使用状态中【放大】-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908119F50BCD002259B7 /* 电脑-使用状态中【放大】-1.png */; };
+		8327909019F50BCD002259B7 /* 电脑-使用状态中【放大】-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908219F50BCD002259B7 /* 电脑-使用状态中【放大】-2.png */; };
+		8327909119F50BCD002259B7 /* 电脑-使用状态中【放大】-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908319F50BCD002259B7 /* 电脑-使用状态中【放大】-3.png */; };
+		8327909219F50BCD002259B7 /* 投影-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908419F50BCD002259B7 /* 投影-1.png */; };
+		8327909319F50BCD002259B7 /* 投影-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908519F50BCD002259B7 /* 投影-2.png */; };
+		8327909419F50BCD002259B7 /* 投影-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908619F50BCD002259B7 /* 投影-3.png */; };
+		8327909519F50BCD002259B7 /* 投影-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908719F50BCD002259B7 /* 投影-4.png */; };
+		8327909619F50BCD002259B7 /* 投影-使用状态中【放大】-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908819F50BCD002259B7 /* 投影-使用状态中【放大】-1.png */; };
+		8327909719F50BCD002259B7 /* 投影-使用状态中【放大】-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908919F50BCD002259B7 /* 投影-使用状态中【放大】-2.png */; };
+		8327909819F50BCD002259B7 /* 投影-使用状态中【放大】-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908A19F50BCD002259B7 /* 投影-使用状态中【放大】-3.png */; };
+		8327909919F50BCD002259B7 /* 投影-使用状态中【放大】-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327908B19F50BCD002259B7 /* 投影-使用状态中【放大】-4.png */; };
+		832790A819F50CA8002259B7 /* 创意图腾柱.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327909A19F50CA8002259B7 /* 创意图腾柱.png */; };
+		832790A919F50CA8002259B7 /* 大洋洲木雕.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327909B19F50CA8002259B7 /* 大洋洲木雕.png */; };
+		832790AA19F50CA8002259B7 /* 大洋洲印象.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327909C19F50CA8002259B7 /* 大洋洲印象.png */; };
+		832790AB19F50CA8002259B7 /* 非洲木雕.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327909D19F50CA8002259B7 /* 非洲木雕.png */; };
+		832790AC19F50CA8002259B7 /* 非洲印象.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327909E19F50CA8002259B7 /* 非洲印象.png */; };
+		832790AD19F50CA8002259B7 /* 美洲木雕.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327909F19F50CA8002259B7 /* 美洲木雕.png */; };
+		832790AE19F50CA8002259B7 /* 木屑互动.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790A019F50CA8002259B7 /* 木屑互动.png */; };
+		832790AF19F50CA8002259B7 /* 欧洲木雕.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790A119F50CA8002259B7 /* 欧洲木雕.png */; };
+		832790B019F50CA8002259B7 /* 欧洲印象.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790A219F50CA8002259B7 /* 欧洲印象.png */; };
+		832790B119F50CA8002259B7 /* 世界木雕乐器.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790A319F50CA8002259B7 /* 世界木雕乐器.png */; };
+		832790B219F50CA8002259B7 /* 泰国真理寺.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790A419F50CA8002259B7 /* 泰国真理寺.png */; };
+		832790B319F50CA8002259B7 /* 五大洲木雕.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790A519F50CA8002259B7 /* 五大洲木雕.png */; };
+		832790B419F50CA8002259B7 /* 亚洲木雕.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790A619F50CA8002259B7 /* 亚洲木雕.png */; };
+		832790B519F50CA8002259B7 /* 亚洲印象.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790A719F50CA8002259B7 /* 亚洲印象.png */; };
+		832790C319F512F6002259B7 /* 雕花窗.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790B619F512F6002259B7 /* 雕花窗.png */; };
+		832790C419F512F6002259B7 /* 雕花楼欣赏.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790B719F512F6002259B7 /* 雕花楼欣赏.png */; };
+		832790C519F512F6002259B7 /* 雕花门.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790B819F512F6002259B7 /* 雕花门.png */; };
+		832790C619F512F6002259B7 /* 宫宇楼阙.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790B919F512F6002259B7 /* 宫宇楼阙.png */; };
+		832790C719F512F6002259B7 /* 故宫.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790BA19F512F6002259B7 /* 故宫.png */; };
+		832790C819F512F6002259B7 /* 互动区.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790BB19F512F6002259B7 /* 互动区.png */; };
+		832790C919F512F6002259B7 /* 记忆-技艺.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790BC19F512F6002259B7 /* 记忆-技艺.png */; };
+		832790CA19F512F6002259B7 /* 神佛万相.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790BD19F512F6002259B7 /* 神佛万相.png */; };
+		832790CB19F512F6002259B7 /* 十里红妆.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790BE19F512F6002259B7 /* 十里红妆.png */; };
+		832790CC19F512F6002259B7 /* 戏文木雕.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790BF19F512F6002259B7 /* 戏文木雕.png */; };
+		832790CD19F512F6002259B7 /* 檐下之翼.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790C019F512F6002259B7 /* 檐下之翼.png */; };
+		832790CE19F512F6002259B7 /* 藻井.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790C119F512F6002259B7 /* 藻井.png */; };
+		832790CF19F512F6002259B7 /* 走进卢宅.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790C219F512F6002259B7 /* 走进卢宅.png */; };
+		832790D119F526EC002259B7 /* on(2).png in Resources */ = {isa = PBXBuildFile; fileRef = 832790D019F526EC002259B7 /* on(2).png */; };
+		832790D519F52773002259B7 /* off(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 832790D419F52773002259B7 /* off(1).png */; };
+		832790DF19F52D98002259B7 /* 传神木俑.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790D619F52D98002259B7 /* 传神木俑.png */; };
+		832790E019F52D98002259B7 /* 刀木春秋.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790D719F52D98002259B7 /* 刀木春秋.png */; };
+		832790E119F52D98002259B7 /* 国有百工.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790D819F52D98002259B7 /* 国有百工.png */; };
+		832790E219F52D98002259B7 /* 皇家御匠.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790D919F52D98002259B7 /* 皇家御匠.png */; };
+		832790E319F52D98002259B7 /* 明清木雕.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790DA19F52D98002259B7 /* 明清木雕.png */; };
+		832790E419F52D98002259B7 /* 傩魂神韵.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790DB19F52D98002259B7 /* 傩魂神韵.png */; };
+		832790E519F52D98002259B7 /* 森林木雕匠.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790DC19F52D98002259B7 /* 森林木雕匠.png */; };
+		832790E619F52D98002259B7 /* 营造法式.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790DD19F52D98002259B7 /* 营造法式.png */; };
+		832790E719F52D98002259B7 /* 祖师鲁班.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790DE19F52D98002259B7 /* 祖师鲁班.png */; };
+		832790EF19F53100002259B7 /* 大师风采.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790E819F53100002259B7 /* 大师风采.png */; };
+		832790F019F53100002259B7 /* 大师寄语.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790E919F53100002259B7 /* 大师寄语.png */; };
+		832790F119F53100002259B7 /* 技艺传承.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790EA19F53100002259B7 /* 技艺传承.png */; };
+		832790F219F53100002259B7 /* 木料鉴赏.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790EB19F53100002259B7 /* 木料鉴赏.png */; };
+		832790F319F53100002259B7 /* 台湾大师.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790EC19F53100002259B7 /* 台湾大师.png */; };
+		832790F419F53100002259B7 /* 薪火相传.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790ED19F53100002259B7 /* 薪火相传.png */; };
+		832790F519F53100002259B7 /* 作品欣赏.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790EE19F53100002259B7 /* 作品欣赏.png */; };
+		832790FB19F53232002259B7 /* 九龙壁.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790F619F53232002259B7 /* 九龙壁.png */; };
+		832790FC19F53232002259B7 /* 竹百科知识.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790F719F53232002259B7 /* 竹百科知识.png */; };
+		832790FD19F53232002259B7 /* 竹编技法.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790F819F53232002259B7 /* 竹编技法.png */; };
+		832790FE19F53232002259B7 /* 竹刻大师.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790F919F53232002259B7 /* 竹刻大师.png */; };
+		832790FF19F53232002259B7 /* 竹艺简史.png in Resources */ = {isa = PBXBuildFile; fileRef = 832790FA19F53232002259B7 /* 竹艺简史.png */; };
+		8327910319F5336F002259B7 /* 组-12-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327910119F5336F002259B7 /* 组-12-off.png */; };
+		8327910419F5336F002259B7 /* 组-12-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327910219F5336F002259B7 /* 组-12-on.png */; };
+		83862A0619F0FA7800C5CCA7 /* conf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83862A0519F0FA7800C5CCA7 /* conf.plist */; };
+		83862A0C19F0FB2900C5CCA7 /* _【展厅1】.png in Resources */ = {isa = PBXBuildFile; fileRef = 83862A0719F0FB2900C5CCA7 /* _【展厅1】.png */; };
+		83862A0D19F0FB2900C5CCA7 /* _【展厅2】.png in Resources */ = {isa = PBXBuildFile; fileRef = 83862A0819F0FB2900C5CCA7 /* _【展厅2】.png */; };
+		83862A0E19F0FB2900C5CCA7 /* _【展厅3】.png in Resources */ = {isa = PBXBuildFile; fileRef = 83862A0919F0FB2900C5CCA7 /* _【展厅3】.png */; };
+		83862A0F19F0FB2900C5CCA7 /* _【展厅4】.png in Resources */ = {isa = PBXBuildFile; fileRef = 83862A0A19F0FB2900C5CCA7 /* _【展厅4】.png */; };
+		83862A1019F0FB2900C5CCA7 /* _【展厅5】.png in Resources */ = {isa = PBXBuildFile; fileRef = 83862A0B19F0FB2900C5CCA7 /* _【展厅5】.png */; };
+		83862A1219F0FC9000C5CCA7 /* 东阳木雕icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83862A1119F0FC9000C5CCA7 /* 东阳木雕icon.png */; };
+		83CBEF2219F268C500EBA53F /* 组-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CBEF2119F268C500EBA53F /* 组-18.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		650073F619DC2C600040EA45 /* DYMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650073F919DC2C600040EA45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		650073FB19DC2C600040EA45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		650073FD19DC2C600040EA45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6500740119DC2C600040EA45 /* DYMD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DYMD-Info.plist"; sourceTree = "<group>"; };
+		6500740319DC2C600040EA45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6500740519DC2C600040EA45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6500740719DC2C600040EA45 /* DYMD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DYMD-Prefix.pch"; sourceTree = "<group>"; };
+		6500740819DC2C600040EA45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6500740919DC2C600040EA45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6500741219DC2C600040EA45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6500742819DC377F0040EA45 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6500742919DC377F0040EA45 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6500742A19DC377F0040EA45 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6500757E19DC56FA0040EA45 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		6500759C19DC59580040EA45 /* _【展厅6】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅6】.png"; sourceTree = "<group>"; };
+		650076E819DE8E140040EA45 /* off-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "off-off.png"; sourceTree = "<group>"; };
+		650076E919DE8E140040EA45 /* off-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "off-on.png"; sourceTree = "<group>"; };
+		650076EA19DE8E140040EA45 /* on-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on-off.png"; sourceTree = "<group>"; };
+		650076EB19DE8E140040EA45 /* on-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on-on.png"; sourceTree = "<group>"; };
+		650076EC19DE8E140040EA45 /* 组-11-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组-11-off.png"; sourceTree = "<group>"; };
+		650076ED19DE8E140040EA45 /* 组-11-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组-11-on.png"; sourceTree = "<group>"; };
+		650076F419DE8EA80040EA45 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		650076F519DE8EA80040EA45 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		650076F919DE8EE50040EA45 /* 图层-42-拷贝-4-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-42-拷贝-4-off.png"; sourceTree = "<group>"; };
+		650076FA19DE8EE50040EA45 /* 图层-42-拷贝-4-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-42-拷贝-4-on.png"; sourceTree = "<group>"; };
+		650076FB19DE8EE50040EA45 /* 投影--on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影--on.png"; sourceTree = "<group>"; };
+		650076FC19DE8EE50040EA45 /* 投影-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-off.png"; sourceTree = "<group>"; };
+		650076FD19DE8EE50040EA45 /* 电脑--on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电脑--on.png"; sourceTree = "<group>"; };
+		650076FE19DE8EE50040EA45 /* 电脑-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电脑-off.png"; sourceTree = "<group>"; };
+		6500770519DE98DA0040EA45 /* 图层-62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-62.png"; sourceTree = "<group>"; };
+		6500772719DE9B610040EA45 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+		6500772819DE9B610040EA45 /* 图层-36-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-36-off.png"; sourceTree = "<group>"; };
+		6500772919DE9B610040EA45 /* 图层-36-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-36-on.png"; sourceTree = "<group>"; };
+		6500772A19DE9B610040EA45 /* 图层-39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-39.png"; sourceTree = "<group>"; };
+		6500774519DEA2530040EA45 /* 图层-48-拷贝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-48-拷贝.png"; sourceTree = "<group>"; };
+		6500774619DEA2530040EA45 /* 图层-48-拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-48-拷贝@2x.png"; sourceTree = "<group>"; };
+		6500774719DEA2530040EA45 /* 图层-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-48.png"; sourceTree = "<group>"; };
+		6500774819DEA2530040EA45 /* 图层-48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-48@2x.png"; sourceTree = "<group>"; };
+		6500774D19DEA36C0040EA45 /* 图层-35-拷贝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-35-拷贝.png"; sourceTree = "<group>"; };
+		6500774E19DEA36C0040EA45 /* 图层-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-35.png"; sourceTree = "<group>"; };
+		6500775119DEB2A30040EA45 /* RightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightView.h; sourceTree = "<group>"; };
+		6500775219DEB2A30040EA45 /* RightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightView.m; sourceTree = "<group>"; };
+		6500775519DEB2D00040EA45 /* RightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightView.xib; sourceTree = "<group>"; };
+		6500775C19DEB44C0040EA45 /* MySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySlider.h; sourceTree = "<group>"; };
+		6500775D19DEB44C0040EA45 /* MySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySlider.m; sourceTree = "<group>"; };
+		6500775F19DEE04E0040EA45 /* RightViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewCell.xib; sourceTree = "<group>"; };
+		6500776319DF09940040EA45 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
+		6500776519DFC0E10040EA45 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6500776719DFC0FF0040EA45 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6500776919DFC1130040EA45 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		65799DD319F1721500A4A67C /* _【展厅1】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅1】.png"; sourceTree = "<group>"; };
+		65799DD419F1721500A4A67C /* _【展厅2】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅2】.png"; sourceTree = "<group>"; };
+		65799DD519F1721500A4A67C /* _【展厅3】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅3】.png"; sourceTree = "<group>"; };
+		65799DD619F1721500A4A67C /* _【展厅4】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅4】.png"; sourceTree = "<group>"; };
+		65799DD719F1721500A4A67C /* _【展厅5】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅5】.png"; sourceTree = "<group>"; };
+		65C855D619E9755000205422 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		65C855D719E9755000205422 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		65C855D819E9755000205422 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		65C855D919E9755000205422 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		65C855DA19E9755000205422 /* CocoaOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaOSC.h; sourceTree = "<group>"; };
+		65C855DB19E9755000205422 /* NS+OSCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS+OSCAdditions.h"; sourceTree = "<group>"; };
+		65C855DC19E9755000205422 /* NS+OSCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS+OSCAdditions.m"; sourceTree = "<group>"; };
+		65C855DD19E9755000205422 /* OSCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCConnection.h; sourceTree = "<group>"; };
+		65C855DE19E9755000205422 /* OSCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCConnection.m; sourceTree = "<group>"; };
+		65C855DF19E9755000205422 /* OSCConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCConnectionDelegate.h; sourceTree = "<group>"; };
+		65C855E019E9755000205422 /* OSCDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCDispatcher.h; sourceTree = "<group>"; };
+		65C855E119E9755000205422 /* OSCDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCDispatcher.m; sourceTree = "<group>"; };
+		65C855E219E9755000205422 /* OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCPacket.h; sourceTree = "<group>"; };
+		65C855E319E9755000205422 /* OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCPacket.m; sourceTree = "<group>"; };
+		65C855E619E9755000205422 /* compiledRegexCache.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = compiledRegexCache.d; sourceTree = "<group>"; };
+		65C855E719E9755000205422 /* NSString-HexConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-HexConversion.h"; sourceTree = "<group>"; };
+		65C855E819E9755000205422 /* NSString-HexConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-HexConversion.m"; sourceTree = "<group>"; };
+		65C855E919E9755000205422 /* utf16ConversionCache.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = utf16ConversionCache.d; sourceTree = "<group>"; };
+		65C855EA19E9755000205422 /* License.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = License.html; sourceTree = "<group>"; };
+		65C855EB19E9755000205422 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		65C855EC19E9755000205422 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		65C855ED19E9755000205422 /* RegexKitLite.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RegexKitLite.html; sourceTree = "<group>"; };
+		65C855EE19E9755000205422 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		65C855FC19E9755E00205422 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		65C855FD19E9755E00205422 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		65C8560519E98AF700205422 /* 东阳展厅运作动画.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "东阳展厅运作动画.gif"; sourceTree = "<group>"; };
+		65C8560619E98AF700205422 /* 图层-分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层-分割线.png"; sourceTree = "<group>"; };
+		831C366319F244570060AB10 /* all-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all-off.png"; sourceTree = "<group>"; };
+		831C366519F244F90060AB10 /* all-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all-on.png"; sourceTree = "<group>"; };
+		8327907E19F50BCD002259B7 /* 电脑-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电脑-1.png"; sourceTree = "<group>"; };
+		8327907F19F50BCD002259B7 /* 电脑-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电脑-2.png"; sourceTree = "<group>"; };
+		8327908019F50BCD002259B7 /* 电脑-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电脑-3.png"; sourceTree = "<group>"; };
+		8327908119F50BCD002259B7 /* 电脑-使用状态中【放大】-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电脑-使用状态中【放大】-1.png"; sourceTree = "<group>"; };
+		8327908219F50BCD002259B7 /* 电脑-使用状态中【放大】-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电脑-使用状态中【放大】-2.png"; sourceTree = "<group>"; };
+		8327908319F50BCD002259B7 /* 电脑-使用状态中【放大】-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电脑-使用状态中【放大】-3.png"; sourceTree = "<group>"; };
+		8327908419F50BCD002259B7 /* 投影-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-1.png"; sourceTree = "<group>"; };
+		8327908519F50BCD002259B7 /* 投影-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-2.png"; sourceTree = "<group>"; };
+		8327908619F50BCD002259B7 /* 投影-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-3.png"; sourceTree = "<group>"; };
+		8327908719F50BCD002259B7 /* 投影-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-4.png"; sourceTree = "<group>"; };
+		8327908819F50BCD002259B7 /* 投影-使用状态中【放大】-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-使用状态中【放大】-1.png"; sourceTree = "<group>"; };
+		8327908919F50BCD002259B7 /* 投影-使用状态中【放大】-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-使用状态中【放大】-2.png"; sourceTree = "<group>"; };
+		8327908A19F50BCD002259B7 /* 投影-使用状态中【放大】-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-使用状态中【放大】-3.png"; sourceTree = "<group>"; };
+		8327908B19F50BCD002259B7 /* 投影-使用状态中【放大】-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投影-使用状态中【放大】-4.png"; sourceTree = "<group>"; };
+		8327909A19F50CA8002259B7 /* 创意图腾柱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "创意图腾柱.png"; sourceTree = "<group>"; };
+		8327909B19F50CA8002259B7 /* 大洋洲木雕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大洋洲木雕.png"; sourceTree = "<group>"; };
+		8327909C19F50CA8002259B7 /* 大洋洲印象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大洋洲印象.png"; sourceTree = "<group>"; };
+		8327909D19F50CA8002259B7 /* 非洲木雕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "非洲木雕.png"; sourceTree = "<group>"; };
+		8327909E19F50CA8002259B7 /* 非洲印象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "非洲印象.png"; sourceTree = "<group>"; };
+		8327909F19F50CA8002259B7 /* 美洲木雕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美洲木雕.png"; sourceTree = "<group>"; };
+		832790A019F50CA8002259B7 /* 木屑互动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "木屑互动.png"; sourceTree = "<group>"; };
+		832790A119F50CA8002259B7 /* 欧洲木雕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧洲木雕.png"; sourceTree = "<group>"; };
+		832790A219F50CA8002259B7 /* 欧洲印象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧洲印象.png"; sourceTree = "<group>"; };
+		832790A319F50CA8002259B7 /* 世界木雕乐器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "世界木雕乐器.png"; sourceTree = "<group>"; };
+		832790A419F50CA8002259B7 /* 泰国真理寺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "泰国真理寺.png"; sourceTree = "<group>"; };
+		832790A519F50CA8002259B7 /* 五大洲木雕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "五大洲木雕.png"; sourceTree = "<group>"; };
+		832790A619F50CA8002259B7 /* 亚洲木雕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "亚洲木雕.png"; sourceTree = "<group>"; };
+		832790A719F50CA8002259B7 /* 亚洲印象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "亚洲印象.png"; sourceTree = "<group>"; };
+		832790B619F512F6002259B7 /* 雕花窗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雕花窗.png"; sourceTree = "<group>"; };
+		832790B719F512F6002259B7 /* 雕花楼欣赏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雕花楼欣赏.png"; sourceTree = "<group>"; };
+		832790B819F512F6002259B7 /* 雕花门.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雕花门.png"; sourceTree = "<group>"; };
+		832790B919F512F6002259B7 /* 宫宇楼阙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宫宇楼阙.png"; sourceTree = "<group>"; };
+		832790BA19F512F6002259B7 /* 故宫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "故宫.png"; sourceTree = "<group>"; };
+		832790BB19F512F6002259B7 /* 互动区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "互动区.png"; sourceTree = "<group>"; };
+		832790BC19F512F6002259B7 /* 记忆-技艺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记忆-技艺.png"; sourceTree = "<group>"; };
+		832790BD19F512F6002259B7 /* 神佛万相.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "神佛万相.png"; sourceTree = "<group>"; };
+		832790BE19F512F6002259B7 /* 十里红妆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "十里红妆.png"; sourceTree = "<group>"; };
+		832790BF19F512F6002259B7 /* 戏文木雕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "戏文木雕.png"; sourceTree = "<group>"; };
+		832790C019F512F6002259B7 /* 檐下之翼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "檐下之翼.png"; sourceTree = "<group>"; };
+		832790C119F512F6002259B7 /* 藻井.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "藻井.png"; sourceTree = "<group>"; };
+		832790C219F512F6002259B7 /* 走进卢宅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "走进卢宅.png"; sourceTree = "<group>"; };
+		832790D019F526EC002259B7 /* on(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on(2).png"; sourceTree = "<group>"; };
+		832790D419F52773002259B7 /* off(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "off(1).png"; sourceTree = "<group>"; };
+		832790D619F52D98002259B7 /* 传神木俑.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "传神木俑.png"; sourceTree = "<group>"; };
+		832790D719F52D98002259B7 /* 刀木春秋.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刀木春秋.png"; sourceTree = "<group>"; };
+		832790D819F52D98002259B7 /* 国有百工.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "国有百工.png"; sourceTree = "<group>"; };
+		832790D919F52D98002259B7 /* 皇家御匠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "皇家御匠.png"; sourceTree = "<group>"; };
+		832790DA19F52D98002259B7 /* 明清木雕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "明清木雕.png"; sourceTree = "<group>"; };
+		832790DB19F52D98002259B7 /* 傩魂神韵.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "傩魂神韵.png"; sourceTree = "<group>"; };
+		832790DC19F52D98002259B7 /* 森林木雕匠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "森林木雕匠.png"; sourceTree = "<group>"; };
+		832790DD19F52D98002259B7 /* 营造法式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营造法式.png"; sourceTree = "<group>"; };
+		832790DE19F52D98002259B7 /* 祖师鲁班.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "祖师鲁班.png"; sourceTree = "<group>"; };
+		832790E819F53100002259B7 /* 大师风采.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大师风采.png"; sourceTree = "<group>"; };
+		832790E919F53100002259B7 /* 大师寄语.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大师寄语.png"; sourceTree = "<group>"; };
+		832790EA19F53100002259B7 /* 技艺传承.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "技艺传承.png"; sourceTree = "<group>"; };
+		832790EB19F53100002259B7 /* 木料鉴赏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "木料鉴赏.png"; sourceTree = "<group>"; };
+		832790EC19F53100002259B7 /* 台湾大师.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台湾大师.png"; sourceTree = "<group>"; };
+		832790ED19F53100002259B7 /* 薪火相传.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "薪火相传.png"; sourceTree = "<group>"; };
+		832790EE19F53100002259B7 /* 作品欣赏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "作品欣赏.png"; sourceTree = "<group>"; };
+		832790F619F53232002259B7 /* 九龙壁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "九龙壁.png"; sourceTree = "<group>"; };
+		832790F719F53232002259B7 /* 竹百科知识.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹百科知识.png"; sourceTree = "<group>"; };
+		832790F819F53232002259B7 /* 竹编技法.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹编技法.png"; sourceTree = "<group>"; };
+		832790F919F53232002259B7 /* 竹刻大师.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹刻大师.png"; sourceTree = "<group>"; };
+		832790FA19F53232002259B7 /* 竹艺简史.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹艺简史.png"; sourceTree = "<group>"; };
+		8327910119F5336F002259B7 /* 组-12-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组-12-off.png"; sourceTree = "<group>"; };
+		8327910219F5336F002259B7 /* 组-12-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组-12-on.png"; sourceTree = "<group>"; };
+		83862A0519F0FA7800C5CCA7 /* conf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = conf.plist; sourceTree = "<group>"; };
+		83862A0719F0FB2900C5CCA7 /* _【展厅1】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅1】.png"; sourceTree = "<group>"; };
+		83862A0819F0FB2900C5CCA7 /* _【展厅2】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅2】.png"; sourceTree = "<group>"; };
+		83862A0919F0FB2900C5CCA7 /* _【展厅3】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅3】.png"; sourceTree = "<group>"; };
+		83862A0A19F0FB2900C5CCA7 /* _【展厅4】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅4】.png"; sourceTree = "<group>"; };
+		83862A0B19F0FB2900C5CCA7 /* _【展厅5】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_【展厅5】.png"; sourceTree = "<group>"; };
+		83862A1119F0FC9000C5CCA7 /* 东阳木雕icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "东阳木雕icon.png"; sourceTree = "<group>"; };
+		83CBEF2119F268C500EBA53F /* 组-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组-18.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650073F319DC2C600040EA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6500776A19DFC1130040EA45 /* libicucore.dylib in Frameworks */,
+				6500776819DFC0FF0040EA45 /* CFNetwork.framework in Frameworks */,
+				6500776619DFC0E10040EA45 /* CoreMedia.framework in Frameworks */,
+				650073FC19DC2C600040EA45 /* CoreGraphics.framework in Frameworks */,
+				650073FE19DC2C600040EA45 /* UIKit.framework in Frameworks */,
+				650073FA19DC2C600040EA45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650073ED19DC2C600040EA45 = {
+			isa = PBXGroup;
+			children = (
+				650073FF19DC2C600040EA45 /* DYMD */,
+				650073F819DC2C600040EA45 /* Frameworks */,
+				650073F719DC2C600040EA45 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		650073F719DC2C600040EA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650073F619DC2C600040EA45 /* DYMD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650073F819DC2C600040EA45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6500776919DFC1130040EA45 /* libicucore.dylib */,
+				6500776719DFC0FF0040EA45 /* CFNetwork.framework */,
+				6500776519DFC0E10040EA45 /* CoreMedia.framework */,
+				650073F919DC2C600040EA45 /* Foundation.framework */,
+				650073FB19DC2C600040EA45 /* CoreGraphics.framework */,
+				650073FD19DC2C600040EA45 /* UIKit.framework */,
+				6500741219DC2C600040EA45 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		650073FF19DC2C600040EA45 /* DYMD */ = {
+			isa = PBXGroup;
+			children = (
+				6500775419DEB2BB0040EA45 /* right */,
+				650076E119DE4D000040EA45 /* mess */,
+				6500740819DC2C600040EA45 /* AppDelegate.h */,
+				6500740919DC2C600040EA45 /* AppDelegate.m */,
+				6500742819DC377F0040EA45 /* MainViewController.h */,
+				6500742919DC377F0040EA45 /* MainViewController.m */,
+				6500742A19DC377F0040EA45 /* MainViewController.xib */,
+				6500740019DC2C600040EA45 /* Supporting Files */,
+			);
+			path = DYMD;
+			sourceTree = "<group>";
+		};
+		6500740019DC2C600040EA45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6500757D19DC56930040EA45 /* images */,
+				6500740119DC2C600040EA45 /* DYMD-Info.plist */,
+				6500740219DC2C600040EA45 /* InfoPlist.strings */,
+				83862A0519F0FA7800C5CCA7 /* conf.plist */,
+				6500740519DC2C600040EA45 /* main.m */,
+				6500740719DC2C600040EA45 /* DYMD-Prefix.pch */,
+				6500776319DF09940040EA45 /* address.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6500757D19DC56930040EA45 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8327910119F5336F002259B7 /* 组-12-off.png */,
+				8327910219F5336F002259B7 /* 组-12-on.png */,
+				83CBEF2119F268C500EBA53F /* 组-18.png */,
+				8327910019F53348002259B7 /* powerBtn */,
+				65799DB919F171FF00A4A67C /* 新加的资源 */,
+				83862A1119F0FC9000C5CCA7 /* 东阳木雕icon.png */,
+				65C855FF19E98AF700205422 /* 2014.10.11东阳切图 */,
+				6500758019DC59580040EA45 /* 2.展项选择页 */,
+				6500757E19DC56FA0040EA45 /* bg.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		6500758019DC59580040EA45 /* 2.展项选择页 */ = {
+			isa = PBXGroup;
+			children = (
+				6500774419DEA2320040EA45 /* 左右箭头 */,
+				6500773B19DE9EBB0040EA45 /* 中间展项选择框 */,
+				6500765019DC62800040EA45 /* 展项选择页相框图片 */,
+				650076F819DE8EE50040EA45 /* 电脑:投影切换 */,
+				6500758119DC59580040EA45 /* on:off开关 */,
+				6500759219DC59580040EA45 /* 【展厅1-6】字 */,
+				6500759F19DC59580040EA45 /* 右侧展项选项栏 */,
+				650075C619DC59580040EA45 /* 展项选择框 */,
+				650075CB19DC59580040EA45 /* 左侧展厅选项栏 */,
+				650075DE19DC59580040EA45 /* 播放键 */,
+				650075E319DC59580040EA45 /* 音乐调节栏 */,
+			);
+			path = "2.展项选择页";
+			sourceTree = "<group>";
+		};
+		6500758119DC59580040EA45 /* on:off开关 */ = {
+			isa = PBXGroup;
+			children = (
+				650076E819DE8E140040EA45 /* off-off.png */,
+				650076E919DE8E140040EA45 /* off-on.png */,
+				650076EA19DE8E140040EA45 /* on-off.png */,
+				650076EB19DE8E140040EA45 /* on-on.png */,
+				650076EC19DE8E140040EA45 /* 组-11-off.png */,
+				650076ED19DE8E140040EA45 /* 组-11-on.png */,
+			);
+			path = "on:off开关";
+			sourceTree = "<group>";
+		};
+		6500759219DC59580040EA45 /* 【展厅1-6】字 */ = {
+			isa = PBXGroup;
+			children = (
+				83862A0719F0FB2900C5CCA7 /* _【展厅1】.png */,
+				83862A0819F0FB2900C5CCA7 /* _【展厅2】.png */,
+				83862A0919F0FB2900C5CCA7 /* _【展厅3】.png */,
+				83862A0A19F0FB2900C5CCA7 /* _【展厅4】.png */,
+				83862A0B19F0FB2900C5CCA7 /* _【展厅5】.png */,
+				6500759C19DC59580040EA45 /* _【展厅6】.png */,
+			);
+			path = "【展厅1-6】字";
+			sourceTree = "<group>";
+		};
+		6500759F19DC59580040EA45 /* 右侧展项选项栏 */ = {
+			isa = PBXGroup;
+			children = (
+				6500770519DE98DA0040EA45 /* 图层-62.png */,
+			);
+			path = "右侧展项选项栏";
+			sourceTree = "<group>";
+		};
+		650075C619DC59580040EA45 /* 展项选择框 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "展项选择框";
+			sourceTree = "<group>";
+		};
+		650075CB19DC59580040EA45 /* 左侧展厅选项栏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "左侧展厅选项栏";
+			sourceTree = "<group>";
+		};
+		650075DE19DC59580040EA45 /* 播放键 */ = {
+			isa = PBXGroup;
+			children = (
+				650076F419DE8EA80040EA45 /* off.png */,
+				650076F519DE8EA80040EA45 /* on.png */,
+			);
+			path = "播放键";
+			sourceTree = "<group>";
+		};
+		650075E319DC59580040EA45 /* 音乐调节栏 */ = {
+			isa = PBXGroup;
+			children = (
+				6500774D19DEA36C0040EA45 /* 图层-35-拷贝.png */,
+				6500774E19DEA36C0040EA45 /* 图层-35.png */,
+				6500772719DE9B610040EA45 /* sound.png */,
+				6500772819DE9B610040EA45 /* 图层-36-off.png */,
+				6500772919DE9B610040EA45 /* 图层-36-on.png */,
+				6500772A19DE9B610040EA45 /* 图层-39.png */,
+			);
+			path = "音乐调节栏";
+			sourceTree = "<group>";
+		};
+		6500765019DC62800040EA45 /* 展项选择页相框图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "展项选择页相框图片";
+			path = "../../展项选择页相框图片";
+			sourceTree = "<group>";
+		};
+		650076E119DE4D000040EA45 /* mess */ = {
+			isa = PBXGroup;
+			children = (
+				65C855FC19E9755E00205422 /* Message.h */,
+				65C855FD19E9755E00205422 /* Message.m */,
+				65C855D519E9755000205422 /* OSC */,
+			);
+			name = mess;
+			sourceTree = "<group>";
+		};
+		650076F819DE8EE50040EA45 /* 电脑:投影切换 */ = {
+			isa = PBXGroup;
+			children = (
+				650076F919DE8EE50040EA45 /* 图层-42-拷贝-4-off.png */,
+				650076FA19DE8EE50040EA45 /* 图层-42-拷贝-4-on.png */,
+				650076FB19DE8EE50040EA45 /* 投影--on.png */,
+				650076FC19DE8EE50040EA45 /* 投影-off.png */,
+				650076FD19DE8EE50040EA45 /* 电脑--on.png */,
+				650076FE19DE8EE50040EA45 /* 电脑-off.png */,
+			);
+			path = "电脑:投影切换";
+			sourceTree = "<group>";
+		};
+		6500773B19DE9EBB0040EA45 /* 中间展项选择框 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "中间展项选择框";
+			sourceTree = "<group>";
+		};
+		6500774419DEA2320040EA45 /* 左右箭头 */ = {
+			isa = PBXGroup;
+			children = (
+				6500774519DEA2530040EA45 /* 图层-48-拷贝.png */,
+				6500774619DEA2530040EA45 /* 图层-48-拷贝@2x.png */,
+				6500774719DEA2530040EA45 /* 图层-48.png */,
+				6500774819DEA2530040EA45 /* 图层-48@2x.png */,
+			);
+			name = "左右箭头";
+			sourceTree = "<group>";
+		};
+		6500775419DEB2BB0040EA45 /* right */ = {
+			isa = PBXGroup;
+			children = (
+				6500775119DEB2A30040EA45 /* RightView.h */,
+				6500775219DEB2A30040EA45 /* RightView.m */,
+				6500775519DEB2D00040EA45 /* RightView.xib */,
+				6500775C19DEB44C0040EA45 /* MySlider.h */,
+				6500775D19DEB44C0040EA45 /* MySlider.m */,
+				6500775F19DEE04E0040EA45 /* RightViewCell.xib */,
+			);
+			name = right;
+			sourceTree = "<group>";
+		};
+		65799DB919F171FF00A4A67C /* 新加的资源 */ = {
+			isa = PBXGroup;
+			children = (
+				65799DBA19F1721500A4A67C /* 世界厅 */,
+				65799DC119F1721500A4A67C /* 历史厅 */,
+				65799DCA19F1721500A4A67C /* 大师厅 */,
+				65799DD219F1721500A4A67C /* 左侧【展厅】文字替换 */,
+				65799DD819F1721500A4A67C /* 生活厅 */,
+				65799DE319F1721500A4A67C /* 电脑投影onoff */,
+				65799DF219F1721500A4A67C /* 竹艺厅 */,
+			);
+			name = "新加的资源";
+			sourceTree = "<group>";
+		};
+		65799DBA19F1721500A4A67C /* 世界厅 */ = {
+			isa = PBXGroup;
+			children = (
+				8327909A19F50CA8002259B7 /* 创意图腾柱.png */,
+				8327909B19F50CA8002259B7 /* 大洋洲木雕.png */,
+				8327909C19F50CA8002259B7 /* 大洋洲印象.png */,
+				8327909D19F50CA8002259B7 /* 非洲木雕.png */,
+				8327909E19F50CA8002259B7 /* 非洲印象.png */,
+				8327909F19F50CA8002259B7 /* 美洲木雕.png */,
+				832790A019F50CA8002259B7 /* 木屑互动.png */,
+				832790A119F50CA8002259B7 /* 欧洲木雕.png */,
+				832790A219F50CA8002259B7 /* 欧洲印象.png */,
+				832790A319F50CA8002259B7 /* 世界木雕乐器.png */,
+				832790A419F50CA8002259B7 /* 泰国真理寺.png */,
+				832790A519F50CA8002259B7 /* 五大洲木雕.png */,
+				832790A619F50CA8002259B7 /* 亚洲木雕.png */,
+				832790A719F50CA8002259B7 /* 亚洲印象.png */,
+			);
+			path = "世界厅";
+			sourceTree = "<group>";
+		};
+		65799DC119F1721500A4A67C /* 历史厅 */ = {
+			isa = PBXGroup;
+			children = (
+				832790D619F52D98002259B7 /* 传神木俑.png */,
+				832790D719F52D98002259B7 /* 刀木春秋.png */,
+				832790D819F52D98002259B7 /* 国有百工.png */,
+				832790D919F52D98002259B7 /* 皇家御匠.png */,
+				832790DA19F52D98002259B7 /* 明清木雕.png */,
+				832790DB19F52D98002259B7 /* 傩魂神韵.png */,
+				832790DC19F52D98002259B7 /* 森林木雕匠.png */,
+				832790DD19F52D98002259B7 /* 营造法式.png */,
+				832790DE19F52D98002259B7 /* 祖师鲁班.png */,
+			);
+			path = "历史厅";
+			sourceTree = "<group>";
+		};
+		65799DCA19F1721500A4A67C /* 大师厅 */ = {
+			isa = PBXGroup;
+			children = (
+				832790E819F53100002259B7 /* 大师风采.png */,
+				832790E919F53100002259B7 /* 大师寄语.png */,
+				832790EA19F53100002259B7 /* 技艺传承.png */,
+				832790EB19F53100002259B7 /* 木料鉴赏.png */,
+				832790EC19F53100002259B7 /* 台湾大师.png */,
+				832790ED19F53100002259B7 /* 薪火相传.png */,
+				832790EE19F53100002259B7 /* 作品欣赏.png */,
+			);
+			path = "大师厅";
+			sourceTree = "<group>";
+		};
+		65799DD219F1721500A4A67C /* 左侧【展厅】文字替换 */ = {
+			isa = PBXGroup;
+			children = (
+				65799DD319F1721500A4A67C /* _【展厅1】.png */,
+				65799DD419F1721500A4A67C /* _【展厅2】.png */,
+				65799DD519F1721500A4A67C /* _【展厅3】.png */,
+				65799DD619F1721500A4A67C /* _【展厅4】.png */,
+				65799DD719F1721500A4A67C /* _【展厅5】.png */,
+			);
+			path = "左侧【展厅】文字替换";
+			sourceTree = "<group>";
+		};
+		65799DD819F1721500A4A67C /* 生活厅 */ = {
+			isa = PBXGroup;
+			children = (
+				832790B619F512F6002259B7 /* 雕花窗.png */,
+				832790B719F512F6002259B7 /* 雕花楼欣赏.png */,
+				832790B819F512F6002259B7 /* 雕花门.png */,
+				832790B919F512F6002259B7 /* 宫宇楼阙.png */,
+				832790BA19F512F6002259B7 /* 故宫.png */,
+				832790BB19F512F6002259B7 /* 互动区.png */,
+				832790BC19F512F6002259B7 /* 记忆-技艺.png */,
+				832790BD19F512F6002259B7 /* 神佛万相.png */,
+				832790BE19F512F6002259B7 /* 十里红妆.png */,
+				832790BF19F512F6002259B7 /* 戏文木雕.png */,
+				832790C019F512F6002259B7 /* 檐下之翼.png */,
+				832790C119F512F6002259B7 /* 藻井.png */,
+				832790C219F512F6002259B7 /* 走进卢宅.png */,
+			);
+			path = "生活厅";
+			sourceTree = "<group>";
+		};
+		65799DE319F1721500A4A67C /* 电脑投影onoff */ = {
+			isa = PBXGroup;
+			children = (
+				8327907E19F50BCD002259B7 /* 电脑-1.png */,
+				8327907F19F50BCD002259B7 /* 电脑-2.png */,
+				8327908019F50BCD002259B7 /* 电脑-3.png */,
+				8327908119F50BCD002259B7 /* 电脑-使用状态中【放大】-1.png */,
+				8327908219F50BCD002259B7 /* 电脑-使用状态中【放大】-2.png */,
+				8327908319F50BCD002259B7 /* 电脑-使用状态中【放大】-3.png */,
+				8327908419F50BCD002259B7 /* 投影-1.png */,
+				8327908519F50BCD002259B7 /* 投影-2.png */,
+				8327908619F50BCD002259B7 /* 投影-3.png */,
+				8327908719F50BCD002259B7 /* 投影-4.png */,
+				8327908819F50BCD002259B7 /* 投影-使用状态中【放大】-1.png */,
+				8327908919F50BCD002259B7 /* 投影-使用状态中【放大】-2.png */,
+				8327908A19F50BCD002259B7 /* 投影-使用状态中【放大】-3.png */,
+				8327908B19F50BCD002259B7 /* 投影-使用状态中【放大】-4.png */,
+			);
+			path = "电脑投影onoff";
+			sourceTree = "<group>";
+		};
+		65799DF219F1721500A4A67C /* 竹艺厅 */ = {
+			isa = PBXGroup;
+			children = (
+				832790F619F53232002259B7 /* 九龙壁.png */,
+				832790F719F53232002259B7 /* 竹百科知识.png */,
+				832790F819F53232002259B7 /* 竹编技法.png */,
+				832790F919F53232002259B7 /* 竹刻大师.png */,
+				832790FA19F53232002259B7 /* 竹艺简史.png */,
+			);
+			path = "竹艺厅";
+			sourceTree = "<group>";
+		};
+		65C855D519E9755000205422 /* OSC */ = {
+			isa = PBXGroup;
+			children = (
+				65C855D619E9755000205422 /* AsyncSocket.h */,
+				65C855D719E9755000205422 /* AsyncSocket.m */,
+				65C855D819E9755000205422 /* AsyncUdpSocket.h */,
+				65C855D919E9755000205422 /* AsyncUdpSocket.m */,
+				65C855DA19E9755000205422 /* CocoaOSC.h */,
+				65C855DB19E9755000205422 /* NS+OSCAdditions.h */,
+				65C855DC19E9755000205422 /* NS+OSCAdditions.m */,
+				65C855DD19E9755000205422 /* OSCConnection.h */,
+				65C855DE19E9755000205422 /* OSCConnection.m */,
+				65C855DF19E9755000205422 /* OSCConnectionDelegate.h */,
+				65C855E019E9755000205422 /* OSCDispatcher.h */,
+				65C855E119E9755000205422 /* OSCDispatcher.m */,
+				65C855E219E9755000205422 /* OSCPacket.h */,
+				65C855E319E9755000205422 /* OSCPacket.m */,
+				65C855E419E9755000205422 /* RegexKitLite */,
+			);
+			path = OSC;
+			sourceTree = "<group>";
+		};
+		65C855E419E9755000205422 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				65C855E519E9755000205422 /* examples */,
+				65C855EA19E9755000205422 /* License.html */,
+				65C855EB19E9755000205422 /* License.rtf */,
+				65C855EC19E9755000205422 /* RegexKitLite.h */,
+				65C855ED19E9755000205422 /* RegexKitLite.html */,
+				65C855EE19E9755000205422 /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		65C855E519E9755000205422 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				65C855E619E9755000205422 /* compiledRegexCache.d */,
+				65C855E719E9755000205422 /* NSString-HexConversion.h */,
+				65C855E819E9755000205422 /* NSString-HexConversion.m */,
+				65C855E919E9755000205422 /* utf16ConversionCache.d */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		65C855FF19E98AF700205422 /* 2014.10.11东阳切图 */ = {
+			isa = PBXGroup;
+			children = (
+				65C8560519E98AF700205422 /* 东阳展厅运作动画.gif */,
+				65C8560619E98AF700205422 /* 图层-分割线.png */,
+			);
+			path = "2014.10.11东阳切图";
+			sourceTree = "<group>";
+		};
+		8327910019F53348002259B7 /* powerBtn */ = {
+			isa = PBXGroup;
+			children = (
+				831C366519F244F90060AB10 /* all-on.png */,
+				831C366319F244570060AB10 /* all-off.png */,
+				832790D419F52773002259B7 /* off(1).png */,
+				832790D019F526EC002259B7 /* on(2).png */,
+			);
+			name = powerBtn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650073F519DC2C600040EA45 /* DYMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6500742219DC2C600040EA45 /* Build configuration list for PBXNativeTarget "DYMD" */;
+			buildPhases = (
+				650073F219DC2C600040EA45 /* Sources */,
+				650073F319DC2C600040EA45 /* Frameworks */,
+				650073F419DC2C600040EA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYMD;
+			productName = DYMD;
+			productReference = 650073F619DC2C600040EA45 /* DYMD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650073EE19DC2C600040EA45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "蒋华阳";
+				TargetAttributes = {
+					650073F519DC2C600040EA45 = {
+						DevelopmentTeam = P67XC2G7SJ;
+					};
+				};
+			};
+			buildConfigurationList = 650073F119DC2C600040EA45 /* Build configuration list for PBXProject "DYMD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 650073ED19DC2C600040EA45;
+			productRefGroup = 650073F719DC2C600040EA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650073F519DC2C600040EA45 /* DYMD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650073F419DC2C600040EA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C855F919E9755000205422 /* License.rtf in Resources */,
+				650076F219DE8E140040EA45 /* 组-11-off.png in Resources */,
+				832790DF19F52D98002259B7 /* 传神木俑.png in Resources */,
+				8327908D19F50BCD002259B7 /* 电脑-2.png in Resources */,
+				83862A0C19F0FB2900C5CCA7 /* _【展厅1】.png in Resources */,
+				832790B219F50CA8002259B7 /* 泰国真理寺.png in Resources */,
+				832790F519F53100002259B7 /* 作品欣赏.png in Resources */,
+				8327909119F50BCD002259B7 /* 电脑-使用状态中【放大】-3.png in Resources */,
+				831C366419F244570060AB10 /* all-off.png in Resources */,
+				650076FF19DE8EE50040EA45 /* 图层-42-拷贝-4-off.png in Resources */,
+				65C855FA19E9755000205422 /* RegexKitLite.html in Resources */,
+				6500774919DEA2530040EA45 /* 图层-48-拷贝.png in Resources */,
+				832790F019F53100002259B7 /* 大师寄语.png in Resources */,
+				650076F719DE8EA80040EA45 /* on.png in Resources */,
+				832790E019F52D98002259B7 /* 刀木春秋.png in Resources */,
+				831C366619F244F90060AB10 /* all-on.png in Resources */,
+				832790A819F50CA8002259B7 /* 创意图腾柱.png in Resources */,
+				832790D119F526EC002259B7 /* on(2).png in Resources */,
+				6500772B19DE9B610040EA45 /* sound.png in Resources */,
+				832790B019F50CA8002259B7 /* 欧洲印象.png in Resources */,
+				8327910319F5336F002259B7 /* 组-12-off.png in Resources */,
+				832790A919F50CA8002259B7 /* 大洋洲木雕.png in Resources */,
+				832790F119F53100002259B7 /* 技艺传承.png in Resources */,
+				832790CD19F512F6002259B7 /* 檐下之翼.png in Resources */,
+				832790AB19F50CA8002259B7 /* 非洲木雕.png in Resources */,
+				8327908F19F50BCD002259B7 /* 电脑-使用状态中【放大】-1.png in Resources */,
+				832790FE19F53232002259B7 /* 竹刻大师.png in Resources */,
+				6500770019DE8EE50040EA45 /* 图层-42-拷贝-4-on.png in Resources */,
+				8327909319F50BCD002259B7 /* 投影-2.png in Resources */,
+				832790B119F50CA8002259B7 /* 世界木雕乐器.png in Resources */,
+				83862A0D19F0FB2900C5CCA7 /* _【展厅2】.png in Resources */,
+				6500770219DE8EE50040EA45 /* 投影-off.png in Resources */,
+				832790AA19F50CA8002259B7 /* 大洋洲印象.png in Resources */,
+				832790C419F512F6002259B7 /* 雕花楼欣赏.png in Resources */,
+				832790E619F52D98002259B7 /* 营造法式.png in Resources */,
+				832790FB19F53232002259B7 /* 九龙壁.png in Resources */,
+				83862A1219F0FC9000C5CCA7 /* 东阳木雕icon.png in Resources */,
+				6500740419DC2C600040EA45 /* InfoPlist.strings in Resources */,
+				6500776019DEE04E0040EA45 /* RightViewCell.xib in Resources */,
+				8327910419F5336F002259B7 /* 组-12-on.png in Resources */,
+				65799E1119F1721500A4A67C /* _【展厅5】.png in Resources */,
+				832790CC19F512F6002259B7 /* 戏文木雕.png in Resources */,
+				832790D519F52773002259B7 /* off(1).png in Resources */,
+				6500771619DE98DA0040EA45 /* 图层-62.png in Resources */,
+				650076F119DE8E140040EA45 /* on-on.png in Resources */,
+				832790AF19F50CA8002259B7 /* 欧洲木雕.png in Resources */,
+				832790AD19F50CA8002259B7 /* 美洲木雕.png in Resources */,
+				832790E319F52D98002259B7 /* 明清木雕.png in Resources */,
+				832790B519F50CA8002259B7 /* 亚洲印象.png in Resources */,
+				6500760519DC59580040EA45 /* _【展厅6】.png in Resources */,
+				832790C819F512F6002259B7 /* 互动区.png in Resources */,
+				832790E119F52D98002259B7 /* 国有百工.png in Resources */,
+				832790E219F52D98002259B7 /* 皇家御匠.png in Resources */,
+				832790CB19F512F6002259B7 /* 十里红妆.png in Resources */,
+				6500776419DF09940040EA45 /* address.plist in Resources */,
+				65C8562719E98AF700205422 /* 东阳展厅运作动画.gif in Resources */,
+				6500772D19DE9B610040EA45 /* 图层-36-on.png in Resources */,
+				83862A0E19F0FB2900C5CCA7 /* _【展厅3】.png in Resources */,
+				832790FF19F53232002259B7 /* 竹艺简史.png in Resources */,
+				6500742C19DC377F0040EA45 /* MainViewController.xib in Resources */,
+				6500772C19DE9B610040EA45 /* 图层-36-off.png in Resources */,
+				832790F319F53100002259B7 /* 台湾大师.png in Resources */,
+				65799E0E19F1721500A4A67C /* _【展厅2】.png in Resources */,
+				83862A0619F0FA7800C5CCA7 /* conf.plist in Resources */,
+				6500775619DEB2D00040EA45 /* RightView.xib in Resources */,
+				832790CE19F512F6002259B7 /* 藻井.png in Resources */,
+				650076F619DE8EA80040EA45 /* off.png in Resources */,
+				8327909919F50BCD002259B7 /* 投影-使用状态中【放大】-4.png in Resources */,
+				832790C519F512F6002259B7 /* 雕花门.png in Resources */,
+				832790AC19F50CA8002259B7 /* 非洲印象.png in Resources */,
+				832790C619F512F6002259B7 /* 宫宇楼阙.png in Resources */,
+				650076EE19DE8E140040EA45 /* off-off.png in Resources */,
+				650076F319DE8E140040EA45 /* 组-11-on.png in Resources */,
+				8327909619F50BCD002259B7 /* 投影-使用状态中【放大】-1.png in Resources */,
+				65799E0F19F1721500A4A67C /* _【展厅3】.png in Resources */,
+				65C855F819E9755000205422 /* License.html in Resources */,
+				6500757F19DC56FA0040EA45 /* bg.png in Resources */,
+				6500770119DE8EE50040EA45 /* 投影--on.png in Resources */,
+				650076F019DE8E140040EA45 /* on-off.png in Resources */,
+				83862A0F19F0FB2900C5CCA7 /* _【展厅4】.png in Resources */,
+				832790FC19F53232002259B7 /* 竹百科知识.png in Resources */,
+				83862A1019F0FB2900C5CCA7 /* _【展厅5】.png in Resources */,
+				8327909519F50BCD002259B7 /* 投影-4.png in Resources */,
+				8327909419F50BCD002259B7 /* 投影-3.png in Resources */,
+				6500774A19DEA2530040EA45 /* 图层-48-拷贝@2x.png in Resources */,
+				8327908C19F50BCD002259B7 /* 电脑-1.png in Resources */,
+				832790EF19F53100002259B7 /* 大师风采.png in Resources */,
+				65799E1019F1721500A4A67C /* _【展厅4】.png in Resources */,
+				6500774C19DEA2530040EA45 /* 图层-48@2x.png in Resources */,
+				832790B419F50CA8002259B7 /* 亚洲木雕.png in Resources */,
+				8327909019F50BCD002259B7 /* 电脑-使用状态中【放大】-2.png in Resources */,
+				650076EF19DE8E140040EA45 /* off-on.png in Resources */,
+				832790C319F512F6002259B7 /* 雕花窗.png in Resources */,
+				6500770319DE8EE50040EA45 /* 电脑--on.png in Resources */,
+				83CBEF2219F268C500EBA53F /* 组-18.png in Resources */,
+				832790CA19F512F6002259B7 /* 神佛万相.png in Resources */,
+				832790B319F50CA8002259B7 /* 五大洲木雕.png in Resources */,
+				8327909819F50BCD002259B7 /* 投影-使用状态中【放大】-3.png in Resources */,
+				832790C919F512F6002259B7 /* 记忆-技艺.png in Resources */,
+				6500770419DE8EE50040EA45 /* 电脑-off.png in Resources */,
+				8327909719F50BCD002259B7 /* 投影-使用状态中【放大】-2.png in Resources */,
+				65799E0D19F1721500A4A67C /* _【展厅1】.png in Resources */,
+				832790F419F53100002259B7 /* 薪火相传.png in Resources */,
+				832790C719F512F6002259B7 /* 故宫.png in Resources */,
+				832790F219F53100002259B7 /* 木料鉴赏.png in Resources */,
+				65C8562819E98AF700205422 /* 图层-分割线.png in Resources */,
+				8327908E19F50BCD002259B7 /* 电脑-3.png in Resources */,
+				6500772E19DE9B610040EA45 /* 图层-39.png in Resources */,
+				832790E719F52D98002259B7 /* 祖师鲁班.png in Resources */,
+				6500774F19DEA36C0040EA45 /* 图层-35-拷贝.png in Resources */,
+				6500774B19DEA2530040EA45 /* 图层-48.png in Resources */,
+				832790E419F52D98002259B7 /* 傩魂神韵.png in Resources */,
+				6500775019DEA36C0040EA45 /* 图层-35.png in Resources */,
+				832790AE19F50CA8002259B7 /* 木屑互动.png in Resources */,
+				832790CF19F512F6002259B7 /* 走进卢宅.png in Resources */,
+				832790FD19F53232002259B7 /* 竹编技法.png in Resources */,
+				832790E519F52D98002259B7 /* 森林木雕匠.png in Resources */,
+				8327909219F50BCD002259B7 /* 投影-1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650073F219DC2C600040EA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C855F519E9755000205422 /* compiledRegexCache.d in Sources */,
+				6500740A19DC2C600040EA45 /* AppDelegate.m in Sources */,
+				6500775E19DEB44C0040EA45 /* MySlider.m in Sources */,
+				65C855F019E9755000205422 /* AsyncUdpSocket.m in Sources */,
+				6500742B19DC377F0040EA45 /* MainViewController.m in Sources */,
+				65C855F219E9755000205422 /* OSCConnection.m in Sources */,
+				6500740619DC2C600040EA45 /* main.m in Sources */,
+				65C855F419E9755000205422 /* OSCPacket.m in Sources */,
+				6500775319DEB2A30040EA45 /* RightView.m in Sources */,
+				65C855FB19E9755000205422 /* RegexKitLite.m in Sources */,
+				65C855F719E9755000205422 /* utf16ConversionCache.d in Sources */,
+				65C855F119E9755000205422 /* NS+OSCAdditions.m in Sources */,
+				65C855FE19E9755E00205422 /* Message.m in Sources */,
+				65C855F619E9755000205422 /* NSString-HexConversion.m in Sources */,
+				65C855EF19E9755000205422 /* AsyncSocket.m in Sources */,
+				65C855F319E9755000205422 /* OSCDispatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6500740219DC2C600040EA45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6500740319DC2C600040EA45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6500742019DC2C600040EA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: li tao (PZG69QP9EF)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6500742119DC2C600040EA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: li tao (PZG69QP9EF)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6500742319DC2C600040EA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DYMD/DYMD-Prefix.pch";
+				INFOPLIST_FILE = "DYMD/DYMD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DYMD",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diyiha.${PRODUCT_NAME:rfc1034identifier}0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6500742419DC2C600040EA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DYMD/DYMD-Prefix.pch";
+				INFOPLIST_FILE = "DYMD/DYMD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DYMD",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diyiha.${PRODUCT_NAME:rfc1034identifier}0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650073F119DC2C600040EA45 /* Build configuration list for PBXProject "DYMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6500742019DC2C600040EA45 /* Debug */,
+				6500742119DC2C600040EA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6500742219DC2C600040EA45 /* Build configuration list for PBXNativeTarget "DYMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6500742319DC2C600040EA45 /* Debug */,
+				6500742419DC2C600040EA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650073EE19DC2C600040EA45 /* Project object */;
+}
