@@ -3,7 +3,8 @@
 ###### 中国木雕博物馆 iPad 客户端
 ###### Server address：192.168.0.6
 ###### Server port：6000
-###### git-https：https://try.gogs.io/ToCenTek/Mudiao.git
+###### github-https：https://github.com/ToCenTek/Mudiao.git
+###### gogs-https：https://try.gogs.io/ToCenTek/Mudiao.git
 -----
 
 ## Configuration
@@ -27,7 +28,6 @@ DTMD-Info.plist and conf.plist Configuration
         <th>Type</th>
         <th>Value</th>
 	</tr>
-    
     <tr>
         <td rowspan = "5">Bundle display name</td>
         <td rowspan = "5">String</td>
@@ -36,27 +36,22 @@ DTMD-Info.plist and conf.plist Configuration
         <td rowspan = "5">Number</td>
         <th>1</th>
     </tr>
-    
     <tr>
         <th>东阳木雕历史厅</th>
         <th>2</th>
     </tr>
-
     <tr>
         <th>东阳木雕世界厅</th>
         <th>3</th>
     </tr>
-
     <tr>
         <th>东阳木雕大师厅</th>
         <th>4</th>
     </tr>
-
     <tr>
         <th>东阳木雕竹艺厅</th>
         <th>5</th>
-    </tr>
-    
+    </tr>    
 </table>
 
 
